@@ -3,10 +3,7 @@ import cv2
 import time
 
 def captureImageFunction():
-	ready =  input("Tell me when you are ready. press R key when Ready.")
-
-	if ( ready.isalpha):
-
+	
 		# Opens the inbuilt camera of laptop to capture video.
 		cap = cv2.VideoCapture(0)
 		i = 0
